@@ -1,0 +1,42 @@
+/* Shake Animation */
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+body{
+  background-color: white;
+  height: 100vh;
+}
+
+/* Custom Error Message Style */
+.error-message {
+  text-align: center;
+  color: #d32f2f;  /* Material UI red */
+  background-color: #ffebee;  /* Light red background */
+  padding: 8px;
+  border-radius: 8px;
+}
+
+/* Apply the shake animation to the error */
+.shake {
+  animation: shake 0.5s ease-in-out;  /* Animation duration and easing */
+}
+
+
+/* src/components/CenterStyles.css */
+.centered-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #f5f5f5; /* Optional: gives a soft background */
+}
+
+h1 {
+  font-size: 3rem;
+  color: #333; /* Optional: can customize based on design needs */
+}
+
