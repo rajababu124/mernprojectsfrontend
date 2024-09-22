@@ -19,7 +19,7 @@ const style = {
   p: 4,
 };
 
-const EditModal: React.FC<any> = ({ open, task, onClose, onUpdate, onChange }) => {
+const EditModal: React.FC<any> = ({ open, task, onClose, onUpdate }) => {
   return (
     <Modal
       open={open}
